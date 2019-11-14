@@ -1,6 +1,6 @@
 {
   "name": "react-p5",
-  "version": "1.1.8",
+  "version": "1.0.0",
   "description": "This Component lets you integrate p5 Sketches into your React App",
   "main": "./build/index.js",
   "keywords": [
@@ -9,7 +9,7 @@
     "p5js"
   ],
   "repository": {
-    "url": "Gherciu/react-p5",
+    "url": "kongebra/react-p5",
     "type": "git"
   },
   "author": {
@@ -17,6 +17,12 @@
     "email": "gherciu553@gmail.com",
     "url": "https://gherciu.github.io/portfolio/"
   },
+  "contributors": [
+    {
+      "name": "Svein Are Danielsen",
+      "email": "sveindani@gmail.com",
+    }
+  ]
   "license": "MIT",
   "scripts": {
     "build": "rimraf ./build && cross-env NODE_ENV=production webpack",
